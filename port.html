@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container">
+        <div class="page-header">
+            <div class="logo">
+                <a>Portfolio</a>
+            </div>
+            <input type="checkbox" id="click">
+
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </label>
+            <ul>
+                <li><a href="siva.html" class="active" style="--navAni:1">Home</a></li>
+                <li><a href="#" style="--navAni:2">About</a></li>
+                <li><a href="skills.html" style="--navAni:3">Skills</a></li>
+                <li><a href="project.html" style="--navAni:4">Projects</a></li>
+                <li><a href="#" style="--navAni:5">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <section class="container">
+        <div class="main">
+            <!-- <div class="rounding-sec"> -->
+                <!-- <div class="big-circle"> -->
+                    <!-- <img src="github.png" alt="" /> -->
+                       <!-- <img src="github.png" alt="" /> -->
+                          <!-- <img src="github.png" alt="" /> -->
+                             <!-- <img src="github.png" alt="" /> -->
+                </div>
+                <!-- <div class="images">
+                    <img src="sivapic.jpg" alt="" class="img-w" >
+                </div> -->
+            </div>
+            <div class="detail">
+                <h3 style="color: #000;">ABOUT ME</h3>
+                <h1><span style="color:#f9532d;">Hi, I'm <b>Siva suthan</b></span> </h1>
+                <p style="color: #000;">I'm a professional Web Developer. Our Main Goal to help & Satisficed the Local & Global Clients by web development solutions</p>
+            <button href="resume.html"  type="submit">Resume</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="section">
+        <h1>Projects</h1>
+        <div class="project">
+            <h2>Project 1</h2>
+            <p>Description of project 1.</p>
+        </div>
+        <div class="project">
+            <h2>Project 2</h2>
+            <p>Description of project 2.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+    
+    <section id="contact" class="section">
+        <h1>Contact</h1>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
